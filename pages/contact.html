@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../styles/contact.css">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body class="body">
+  <nav class="navbar-inverse">
+  
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <div class="navRafal" href="#">Rafal Cv</div>
+      </div>
+      <ul class="nav navbar-nav">
+       
+  
+        <li><a  href="index.html">About me</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html"> Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+    
+    <div class="container py-4">
+
+        <!-- Bootstrap 5 starter form -->
+        <form id="contactForm" class="form">
+      
+          <!-- Name input -->
+          <div class="mb-3">
+            <label class="form-label" for="name">Name</label>
+            <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+          </div>
+      
+          <!-- Email address input -->
+          <div class="mb-3">
+            <label class="form-label" for="emailAddress">Email Address</label>
+            <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
+          </div>
+      
+          <!-- Message input -->
+          <div class="mb-3">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+          </div>
+      
+          
+      
+        </form>
+        <!-- Form submit button -->
+        <div class="d-grid">
+          <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+        </div>
+
+        <div class="footerDiv">
+          <hr />
+          <footer>
+            <a href="https://x.com/rafalameer?s=21" target="_blank"
+              ><img class="icon" src="../icons/iconTwitter.png" alt="twitter icon" />
+            </a>
+            <a href="https://github.com/" target="_blank"
+            ><img class="icon" src="../icons/iconGit.png" alt="github icon" />
+          </a>
+            
+            <a href="https://www.linkedin.com/in/rafal-amir-7a6b97270">
+              <img class="icon" src="../icons/iconLink.png" alt="linkdin" />
+            </a>
+          </footer>
+        </div>
+      
+      </div>
+</body>
+</html>
